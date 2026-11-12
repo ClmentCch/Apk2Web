@@ -15,6 +15,17 @@ Smali, puis génère un site statique autonome, exportable en ZIP et directement
 Utilisez APK2WEB uniquement sur des applications dont vous détenez les droits (vos propres
 applications, projets open source, autorisation écrite de l'éditeur).
 
+## Téléchargement
+
+- **APK2WEB v1.0.0 prêt à héberger** : [`downloads/APK2WEB-v1.0.0.zip`](downloads/APK2WEB-v1.0.0.zip)
+  (SHA-256 `cbdae53e30df494de1e035322413a4be14aefc1b404a4057f4db806517e45e05`)
+- **Projet de démonstration** : [`examples/DemoProject.zip`](examples/DemoProject.zip)
+- **Notes de version** : [`RELEASE_NOTES-v1.0.0.md`](RELEASE_NOTES-v1.0.0.md)
+
+L'archive de l'application contient le build de production, le README, un `.htaccess` et le projet
+de démonstration. Décompressez-la et copiez son contenu sur votre hébergement ; `index.html` est le
+point d'entrée.
+
 ---
 
 ## Sommaire
