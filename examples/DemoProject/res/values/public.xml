@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <public type="layout" name="activity_main" id="0x7f0b0001" />
+  <public type="layout" name="activity_game" id="0x7f0b0002" />
+  <public type="id" name="button_start" id="0x7f080001" />
+  <public type="id" name="button_back" id="0x7f080002" />
+</resources>

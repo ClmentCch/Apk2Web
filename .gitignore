@@ -1,0 +1,13 @@
+node_modules/
+dist/
+release/
+tests/.tmp/
+*.local
+.DS_Store
+npm-debug.log*
+
+# Artefacts de vérification locaux (captures, exports de test, serveur)
+artifacts-*.png
+artifacts-*.zip
+dev.log
+dev.pid

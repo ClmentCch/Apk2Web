@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0d12" />
+    <meta
+      name="description"
+      content="APK2WEB — transformez les ressources d'une application Android décompilée en site web HTML/CSS/JS."
+    />
+    <title>APK2WEB — Android vers Web</title>
+    <style>
+      html, body { margin: 0; background: #080a0f; }
+      .app-loading { display: flex; align-items: center; justify-content: center; min-height: 100vh; color: #8d96ab; font-family: system-ui, sans-serif; }
+      .boot { text-align: center; }
+      .boot__logo { font-size: 30px; font-weight: 800; letter-spacing: .08em; color: #e9edf7; margin-bottom: 10px; }
+      .boot__logo span { color: #7c5cff; }
+    </style>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%237c5cff'/%3E%3Cpath d='M18 40l12-20 6 10 4-6 6 16z' fill='%23fff'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div id="app" class="app-loading">
+      <div class="boot">
+        <div class="boot__logo">APK<span>2</span>WEB</div>
+        <p>Chargement de l'atelier…</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
